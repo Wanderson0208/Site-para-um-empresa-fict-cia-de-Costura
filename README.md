@@ -10,15 +10,18 @@
 - CSS
 - JavaScript
 
-## Funcionalidades
+##Login ADM
+- Para chegar no login do adm, você precisa ir até o rodapé e clicar no icone de um caderninho com uma caneta.
+- email: adm@gmail.com
+- senha: 123456
 
+## Funcionalidades
 - Cadastro de novos produtos
 - Exibição de promoções
 - Área administrativa para gerenciamento de usuários, produtos e feedbacks
 - CRUD completo para produtos e usuários
 
 ## Tecnologias Utilizadas
-
 - **HTML**: Estruturação do conteúdo do site.
 - **CSS**: Estilização e layout responsivo.
 - **Java**: Desenvolvimento da lógica do servidor e funcionalidades do site.
