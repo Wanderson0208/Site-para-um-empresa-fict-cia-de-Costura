@@ -1,0 +1,446 @@
+@charset "ISO-8859-1";
+
+* {
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+/* ------- I N I C I O  LINHA REDES SOCIAIS ------- */
+.principal .redesSociais {
+	
+	width: 100%;
+	height: 5vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background-color: #93E1D8;
+	
+	/*border: 2px solid black;*/
+}
+
+.principal .redesSociais h4 {
+	
+	font-family: "Economica", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 2px;
+
+}
+
+.principal .redesSociais a {
+	
+	width: 1.5%;
+	
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	
+	/*border: 2px solid black;*/
+
+}
+
+.principal .redesSociais .iconInsta {
+	
+	width: 2.5%;
+	
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	
+	/*border: 2px solid black;*/
+
+}
+
+.principal .redesSociais a img {
+	
+	width: 100%;
+	
+	/*border: 2px solid black;*/
+
+}
+/* ------- F I M  LINHA REDES SOCIAIS ------- */
+
+
+/* ------- I N I C I O  HEADER ------- */
+header {
+	
+	width: 100%;
+	
+	position: relative;
+	
+	background-color: red;
+	
+}
+
+header nav {
+	
+	width: 100%;
+	height: 15vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background-color: #f5b696;
+	
+	/*border: 2px solid black;*/
+	
+}
+
+header nav ul {
+	
+	width: 45%;
+	height: 10vh;
+		
+	list-style-type: none;
+	padding: 0;
+	
+	/*border: 2px solid blue;*/
+	
+}
+
+header nav ul li {
+	
+	display: inline-block;
+	
+	margin-left: 1.7%;
+	margin-right: 1.7%;
+	
+	padding: 15px;
+	
+	/*border: 2px solid yellow;*/
+	
+}
+
+header nav ul li a {
+	
+	text-decoration: none;
+	
+	color: black;
+	
+	letter-spacing: 2px;
+	font-size: 2.5vh;
+	
+	font-family: "Economica", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	
+}
+
+header nav ul li:hover a {
+	
+	border-bottom: 2px solid black;
+	
+}
+
+.principal .logo {
+	
+	width: 100%;
+	height: 20vh;
+	
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	
+	background-image: url(../img/fundoPageProdutos.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	overflow: hidden;
+	
+	/*border: 2px solid black;*/
+	
+}
+
+.principal .logo .filtroPageSobMedida {
+	
+	width: 25%;
+	height: 20vh;
+	
+	position: absolute;
+
+	display: flex;
+	justify-content: center;
+	
+	background: radial-gradient( rgba(255, 255, 255, 0.667) 50%, transparent);
+	
+	/*border: 2px solid yellow;*/
+	
+}
+
+.principal .logo .filtroPageSobMedida img {
+	
+	width: 100%;
+	height: 50vh;
+	
+	margin-top: -30%;
+	
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	/*border: 2px solid yellow;*/
+	
+}
+
+/* ------- F I M  HEADER ------- */
+
+.principal .tituloPageSobMedida {
+	
+	width: 100%;
+	height: 25vh;
+	
+	/*border: 2px solid yellow;*/
+	
+}
+
+.principal .tituloPageSobMedida section {
+	
+	width: 100%;
+	height: 20vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	/*border: 2px solid darkblue;*/
+	
+}
+
+.principal .tituloPageSobMedida section h1 {
+	
+	width: 40%;
+	
+	text-align: center;
+	padding: 15px;
+	
+	font-size: 4vh;
+	font-family: "Economica", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 5px;
+	
+	border-bottom: 2px dashed black;
+	
+}
+
+
+.principal .containersPageSobMedida {
+	
+	width: 100%;
+	height: 90vh;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	/*border: 4px solid black;*/
+	
+}
+
+.principal .containersPageSobMedida .txtEsquerda{
+	
+	margin-left: 5%;
+	
+}
+
+.principal .containersPageSobMedida .txtDireita{
+	
+	margin-right: 5%;
+	
+}
+
+.principal .containersPageSobMedida .secTxtPageSobMedida{
+	
+	width: 40%;
+	height: 40vh;
+	
+	padding: 50px;
+	
+	font-size: 3vh;
+	font-family: "Zilla Slab", serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	
+	/*border: 2px solid yellow;*/
+	
+}
+
+.principal .containersPageSobMedida .secTxtPageSobMedida a{
+	
+	background-color: #25D366;
+	
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	text-decoration: none;
+	color: white;
+	
+	font-size: 3vh;
+	font-family: "Zilla Slab", serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	
+  	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+  	border-radius: 25px;
+	border: 1px solid rgba(0, 0, 0, 0.333);
+	
+	transition: 2s;
+	
+}
+
+.principal .containersPageSobMedida .secTxtPageSobMedida a:hover {
+	
+	background-color: black;
+	color: white;
+	
+	transition: 2s;
+	
+}
+
+.principal .containersPageSobMedida .secImgPageSobMedida {
+	
+	width: 50%;
+	height: 90vh;
+	
+	/*border: 2px solid darkblue;*/
+	
+}
+
+
+.principal .containerFraseEspecial {
+	
+	width: 100%;
+	height: 100vh;
+	
+	position: relative;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	background-image: url(../img/imgAntesRodapePageSobMedida2.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+
+}
+
+.principal .containerFraseEspecial .pelicula{
+	
+	width: 100%;
+	height: 100vh;
+	
+	position: absolute;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	opacity: 0;
+	transition: 1.5s ease;
+	
+}
+
+.principal .containerFraseEspecial .pelicula:hover{
+	
+	width: 100%;
+	height: 100vh;
+	
+	position: absolute;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	opacity: 1;
+	transition: 1.5s;
+	
+}
+
+.principal .containerFraseEspecial .pelicula .secLogoFinalPage{
+	
+	width: 80%;
+	height: 30vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	overflow: hidden;
+	
+	/*border: 2px solid yellow;*/
+
+}
+
+.principal .containerFraseEspecial .pelicula .secLogoFinalPage img{
+	
+	/*border: 2px solid yellow;*/
+
+}
+
+.principal .containerFraseEspecial .pelicula h2{
+	
+	color: white;
+	
+	font-size: 8vh;
+	font-family: "Twinkle Star", cursive;
+  	font-weight: 400;
+  	font-style: normal;
+  	text-shadow: 5px 5px 5px white;
+  	
+	/*border: 2px solid yellow;*/
+
+}
+
+
+
+/* ========= IMAGENS ========= */
+
+.principal .containersPageSobMedida .imgContainer1 {
+	
+	background-image: url(../img/img1SobMedida.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.principal .containersPageSobMedida .imgContainer2 {
+	
+	background-image: url(../img/img2SobMdeida.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.principal .containersPageSobMedida .imgContainer3 {
+	
+	background-image: url(../img/img3SobMdeida.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.principal .containersPageSobMedida .imgContainer4 {
+	
+	background-image: url(../img/img4SobMdeida.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}

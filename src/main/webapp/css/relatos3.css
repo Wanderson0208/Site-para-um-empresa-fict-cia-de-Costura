@@ -1,0 +1,128 @@
+@charset "ISO-8859-1";
+
+.divRelatos {
+
+	width: 100%;
+	height: 120vh;
+
+	background-color: ghostwhite;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.sessaoTituloRelatos {
+
+	width: 40%;
+	height: 10vh;
+
+	margin-bottom: 5%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-family: 'Economica', sans-serif;
+	text-align: center;
+	letter-spacing: 5px;
+
+	border-bottom: 2px dashed black;
+	/*border: 2px solid yellow;*/
+
+}
+
+.sessaoTituloRelatos h1 {
+
+	color: black;
+	font-size: 40px;
+
+}
+
+.sessaoRelatos {
+
+	width: 100%;
+	height: 50vh;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	margin-bottom: 2%;
+	
+	/*border: 2px solid red;*/
+
+}
+
+.relatos {
+	
+	width: 30%;
+	height: 50vh;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
+	
+	background-color: transparent;
+	
+	border-radius: 40px 0px 40px 0px ;
+	border: 2px dashed black;
+	
+}
+
+.sessaoRelatos .relatos .imgUser {
+	
+	width: 35%;
+	height: 25vh;
+	
+	background-image: url(../img/avatar.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	margin-top: 3%;
+	
+	border-radius: 50%;
+	
+	/*border: 2px solid black;*/
+	
+}
+
+
+.relatos h1 {
+	
+	color: black;
+	text-align: center;
+	
+	font-family: "Zilla Slab", serif;
+  	font-weight: 500;
+  	font-style: normal;
+	
+	margin-top: 2%;
+	
+	/*border: 2px solid yellow;*/
+	
+}
+
+.relatos p {
+	
+	width: 80%;
+	height: 20vh;
+	
+	color: black;
+	text-align: center;
+	font-size: 2.5vh;
+	
+	font-family: "Zilla Slab", serif;
+  	font-weight: 500;
+  	font-style: normal;
+	
+	margin-top: 2%;
+	
+	/*border: 2px solid yellow;*/
+	
+}
+

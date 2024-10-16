@@ -1,0 +1,412 @@
+@charset "ISO-8859-1";
+
+* {
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+/* ------- I N I C I O  LINHA REDES SOCIAIS ------- */
+.principal .redesSociais {
+	
+	width: 100%;
+	height: 5vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background-color: #93E1D8;
+	
+	/*border: 2px solid black;*/
+}
+
+.principal .redesSociais h4 {
+	
+	font-family: "Economica", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 2px;
+
+}
+
+.principal .redesSociais a {
+	
+	width: 1.5%;
+	
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	
+	/*border: 2px solid black;*/
+
+}
+
+.principal .redesSociais .iconInsta {
+	
+	width: 2.5%;
+	
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	
+	/*border: 2px solid black;*/
+
+}
+
+.principal .redesSociais a img {
+	
+	width: 100%;
+	
+	/*border: 2px solid black;*/
+
+}
+/* ------- F I M  LINHA REDES SOCIAIS ------- */
+
+
+/* ------- I N I C I O  HEADER ------- */
+header {
+	
+	width: 100%;
+	
+	position: relative;
+	
+	background-color: red;
+	
+}
+
+header nav {
+	
+	width: 100%;
+	height: 15vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background-color: #f5b696;
+	
+	/*border: 2px solid black;*/
+	
+}
+
+header nav ul {
+	
+	width: 45%;
+	height: 10vh;
+		
+	list-style-type: none;
+	padding: 0;
+	
+	/*border: 2px solid blue;*/
+	
+}
+
+header nav ul li {
+	
+	display: inline-block;
+	
+	margin-left: 1.7%;
+	margin-right: 1.7%;
+	
+	padding: 15px;
+	
+	/*border: 2px solid yellow;*/
+	
+}
+
+header nav ul li a {
+	
+	text-decoration: none;
+	
+	color: black;
+	
+	letter-spacing: 2px;
+	font-size: 2.5vh;
+	
+	font-family: "Economica", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	
+}
+
+header nav ul li:hover a {
+	
+	border-bottom: 2px solid black;
+	
+}
+
+.principal .logo {
+	
+	width: 100%;
+	height: 20vh;
+	
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	
+	background-image: url(../img/fundoPageProdutos.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	overflow: hidden;
+	
+	/*border: 2px solid black;*/
+	
+}
+
+.principal .logo .filtroPageProdutos {
+	
+	width: 25%;
+	height: 20vh;
+	
+	position: absolute;
+
+	display: flex;
+	justify-content: center;
+	
+	background: radial-gradient( rgba(255, 255, 255, 0.667) 50%, transparent);
+	
+	/*border: 2px solid yellow;*/
+	
+}
+
+.principal .logo .filtroPageProdutos img {
+	
+	width: 100%;
+	height: 50vh;
+	
+	margin-top: -30%;
+	
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	/*border: 2px solid yellow;*/
+	
+}
+
+/* ------- F I M  HEADER ------- */
+
+
+.principal .tituloPageAjustes {
+	
+	width: 100%;
+	height: 60vh;	
+	
+}
+
+.principal .tituloPageAjustes section {
+	
+	width: 100%;
+	height: 20vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	/*border: 2px solid darkblue;*/
+	
+}
+
+.principal .tituloPageAjustes section h1 {
+	
+	width: 40%;
+	
+	text-align: center;
+	padding: 15px;
+	
+	font-size: 4vh;
+	font-family: "Economica", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 5px;
+	
+	border-bottom: 2px dashed black;
+	
+}
+
+.principal .tituloPageAjustes .secAlertaPageAjustes {
+	
+	width: 100%;
+	height: 35vh;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	/*border: 2px solid black;*/
+	
+}
+
+.principal .tituloPageAjustes .secAlertaPageAjustes h1 {
+	
+	width: 40%;
+	
+	text-align: center;
+	padding: 15px;
+	
+	font-size: 4vh;
+	font-family: "Economica", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 5px;
+	
+	background-color: yellow;
+	
+	border-radius: 0px 0px 25px 25px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.500);
+	
+}
+
+.principal .tituloPageAjustes .secAlertaPageAjustes p {
+	
+	width: 40%;
+	
+	text-align: center;
+	padding: 15px;
+	
+	font-size: 2vh;
+	font-family: "Economica", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	letter-spacing: 2px;
+	
+	border-radius: 0px 0px 25px 25px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.500);
+	
+}
+
+
+.principal .containerItens {
+	
+	width: 100%;
+	height: 100vh;
+	
+	background-image: url(../img/fundoPageAjustesConcertos.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.principal .containerItens .linhas {
+	
+	width: 100%;
+	height: 40vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+	/*border: 2px solid blue;*/
+	
+}
+
+.principal .containerItens .linhas a {
+	
+	width: 30%;
+	height: 40vh;
+	
+	text-decoration: none;
+	color: black;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	margin-left: 1%;
+	margin-right: 1%;
+	
+	background-color: white;
+	
+	transition: 1s ease, border-radius 1s ease;
+	
+	/*border: 2px solid yellow;*/
+	
+}
+
+.principal .containerItens .linhas a:hover {
+	
+	background-color: rgba(255, 255, 255, 0.750);
+	
+	border-radius: 15px;
+	transform: scale(1.05);
+	transition: 1s;
+	
+}
+
+.principal .containerItens .linhas a .secImgItem {
+	
+	width: 100%;
+	height: 23vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	/*border: 2px solid yellow;*/
+	
+}
+
+.principal .containerItens .linhas a .secImgItem img {
+	
+	width: 30%;
+	
+}
+
+.principal .containerItens .linhas a .secNomeItensPageAjustes {
+	
+	width: 100%;
+	height: 5vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	font-size: 2.3vh;
+	font-family: "Economica", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 2px;
+	
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+	/*border: 2px solid darkblue;*/
+	
+}
+
+.principal .containerItens .linhas a .descItensPageAjustes {
+	
+	width: 98%;
+	height: 10vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	font-size: 2vh;
+	font-family: "Economica", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: 2px;
+	text-align: center;
+	
+	/*border: 2px solid pink;*/
+	
+}

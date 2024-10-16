@@ -1,0 +1,236 @@
+@charset "ISO-8859-1";
+
+.divServicos {
+
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+  
+  background-image: url(../img/fundoAreaServ3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: chocolate;
+
+}
+
+.tituloServicos {
+
+  width: 40%;
+  height: 10vh;
+
+  margin-bottom: 5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Economica', sans-serif;
+  letter-spacing: 5px;
+
+  border-bottom: 2px dashed black;
+  /* border: 2px solid black; */
+
+}
+
+.imgsServicos:hover {
+
+  transition: 1s;
+  filter: blur(2.5px);
+  cursor: pointer;
+  transform: scale(1.1);
+  border-radius: 40px 40px 40px 40px;
+
+}
+
+.imgsServicos {
+
+  transition: transform s ease;
+  /* Controla velocidade do reverse do hover(assi que tiramos o ponteiro do mouse de cima d section) */
+  transition: border-radius 2s ease;
+
+}
+
+
+/* Estilo padrão para as seções */
+
+.wrapper {
+
+  width: 100%;
+  height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+
+}
+
+.image {
+
+  width: 20%;
+  height: 60vh;
+
+  margin-left: 15px;
+  margin-right: 15px;
+  overflow: hidden;
+  position: relative;
+
+  transition: border-radius 2s;
+
+  border: 2px solid black;
+
+}
+
+.image:hover {
+
+  transition: 2s;
+  border-radius: 40px 40px 40px 40px;
+
+}
+
+.image img {
+
+  width: 100%;
+  height: 60vh;
+  display: block;
+  margin: auto;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.content {
+
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  transition: 0.6s;
+
+  background-color: rgba(0, 0, 0, 0.445);
+
+}
+
+.content:hover {
+
+  opacity: 1;
+  cursor: pointer;
+
+}
+
+.content h1 {
+
+  font-size: 20px;
+  color: #00ff84;
+  margin-bottom: 10px;
+
+}
+
+.content p {
+
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.content a {
+
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.titleServ {
+
+  width: 75%;
+  height: 15vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+
+  /*border: 2px solid yellow;*/
+
+}
+
+.descricaoServ {
+
+  width: 75%;
+  height: 30vh;
+
+
+  /*border: 2px solid blue; */
+
+}
+
+.btnServ {
+
+  width: 100%;
+  height: 5vh;
+
+  text-align: center;
+
+	/*border: 2px solid yellow;*/
+	
+}
+
+.btnServ button {
+	
+	width: 80%;
+	
+	padding: 10px;
+	
+	background-color: #f5b696;
+	
+	color: white;
+	letter-spacing: 2px;
+	font-weight: 700;
+	
+	border-radius: 25px;
+	border: 1px solid black;
+	
+	transition: 1s ease;
+	
+}
+
+.btnServ button:hover {
+
+	color: black;
+	
+	background-color: blue;
+	
+	cursor: pointer;
+
+}
+
+.bb {
+
+  /* border: 2px solid yellow; */
+
+}

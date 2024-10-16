@@ -1,0 +1,148 @@
+@charset "ISO-8859-1";
+
+footer {
+	
+	width: 100%;
+	height: 40vh;
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	background-color: black;
+	
+}
+
+footer div{
+	
+	/*border: 2px solid yellow;*/
+	
+}
+
+
+
+footer .divNavFooter {
+	
+	width: 20%;
+	height: 20vh;
+	
+}
+footer .divNavFooter ul {
+	
+	list-style-type: none;
+	
+	/*border: 2px solid pink;*/
+	
+}
+footer .divNavFooter ul li a{
+	
+	text-decoration: none;
+	color: white;
+	
+	font-family: "Economica", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: 1px;
+	
+}
+footer .divNavFooter ul li a:hover{
+	
+
+	color: blue;
+	cursor: pointer;
+	
+}
+
+
+
+footer .divLogosFooter {
+	
+	width: 25%;
+	height: 30vh;
+	
+}
+footer .divLogosFooter section {
+	
+	width: 100%;
+	height: 15vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	/*border: 2px solid darkblue;*/
+	
+}
+footer .divLogosFooter .divImgLogoModaFooter img {
+	
+	width: 65%;
+	
+}
+footer .divLogosFooter .divImgLogoSenacFooter img {
+	
+	width: 50%;
+	margin-top: -3%;
+	
+}
+
+
+
+footer .divImgRedesSociasFooter {
+	
+	width: 20%;
+	height: 30vh;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+footer .divImgRedesSociasFooter .divImgLogoDelta{
+	
+	width: 100%;
+	height: 15vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	/*border: 1px solid white;*/
+	
+}
+footer .divImgRedesSociasFooter .divImgLogoDelta img {
+	
+	width: 50%;
+	
+}
+
+footer .divImgRedesSociasFooter .divIconsRedesFooter {
+	
+	width: 100%;
+	height: 10vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+footer .divImgRedesSociasFooter .divIconsRedesFooter a {
+	
+	width: 15%;
+	
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	
+	/*border: 1px solid yellow;*/
+	
+}
+footer .divImgRedesSociasFooter .divIconsRedesFooter a img {
+	
+	width: 100%;
+	
+}
+footer .divImgRedesSociasFooter .divIconsRedesFooter a img:hover {
+	
+	transform: scale(1.2);
+	
+}
